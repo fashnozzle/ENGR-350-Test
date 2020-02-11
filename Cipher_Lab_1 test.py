@@ -2,10 +2,7 @@
 #Program: Decrypt Cipher
 #Date: 2/7/2020
 import re
-
-ALPHABET = "abcdefghijklmnopqrstuvwxyz" #"Dictionary" of letters used
-#decrypt() method decrypts a ciphered text with a shift of +10 or -16
-def decrypt( wordList ):               
+dList ):               
     message = ""                        #local variable holding plainText message
     shift = 10                          #shift value to decrypt message
 
